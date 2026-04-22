@@ -54,7 +54,7 @@ jobs:
         with:
           name: myapp
 
-      # 6. Deploy WAR via Tomcat Manager
+      # 6. Deploy WAR via Tomcat Manager last step 
       - name: Deploy to Tomcat
         run: |
           WAR_FILE=$(ls *.war)
